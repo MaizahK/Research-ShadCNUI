@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className="h-14 border-b flex items-center w-screen">
-      <h3 className="font-semibold text-lg px-6">ShadCN/UI Dashboard</h3>
+      <h3 className="font-semibold text-lg px-6">ShadCN/UI Application</h3>
       <div className="flex-1"></div>
       <Switch checked={dark} onCheckedChange={setDark} className="mr-2"/>
       <Button variant="destructive" onClick={logout} className="mr-5">
